@@ -4,6 +4,7 @@
 vim.g.diagnostics_mode = 3
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+-- vim.opt.mouse = " "
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
   -- Enable underline, use default values
